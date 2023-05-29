@@ -21,28 +21,19 @@
 .
 |-- figures
 |   |-- err_oneday
-|   |   |-- temp
 |   |   `-- temp
 |   |-- err_onemonth
-|   |   |-- temp
 |   |   `-- temp
 |   |-- err_fulltime
-|   |   |-- temp
 |   |   `-- temp
-|   |-- temp
-|   |-- temp
 |   `-- temp
 |-- forecasts
 |   |-- combined
 |   |   |-- temp
 |   |-- filtered
-|   |   |-- temp
 |   |   `-- temp
 |   |-- full
 |   |   |-- temp
-|   |-- temp
-|   |-- temp
-|   |-- temp
 |   `-- temp
 |-- saildrones
 |   |-- all
@@ -60,9 +51,5 @@
 |   |-- saildrone_filter.py
 |   |-- saildrone_filter_figures.ipynb
 |   `-- saildrone_path.ipynb
-|-- temp
-|-- temp
-|-- temp
-|-- temp
 `-- temp
 ```
