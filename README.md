@@ -1,6 +1,6 @@
 # Arctic Weather Ensemble Validation
 
-Code and figures for model validation of [ECMWF](https://www.ecmwf.int/en/forecasts) Arctic weather [ensemble forecasts](https://confluence.ecmwf.int/display/FUG/ENS+-+Ensemble+Forecasts) using [NOAA Saildrone data](https://data.pmel.noaa.gov/pmel/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=NOAA%2FPMEL+2019+Arctic+Saildrone+Mission) data documented in:
+Code and figures for model validation of [ECMWF](https://www.ecmwf.int/en/forecasts) Arctic weather [ensemble forecasts](https://confluence.ecmwf.int/display/FUG/ENS+-+Ensemble+Forecasts) using [NOAA Saildrone data](https://data.pmel.noaa.gov/pmel/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=NOAA%2FPMEL+2019+Arctic+Saildrone+Mission) documented in:
 
 Yamane MT, Zhang C  
 [*Validation of ECMWF Ensemble Forecasts Against Saildrone Observations in the Arctic*](https://ui.adsabs.harvard.edu/abs/2021AGUFM.C35D0915Y/abstract)
@@ -24,20 +24,24 @@ which is a product of Yamane's 2021 [NOAA Hollings](https://www.noaa.gov/office-
 .
 |-- figures
 |   |-- err_oneday
-|   |   `-- temp
+|   |   `-- .gitignore
 |   |-- err_onemonth
-|   |   `-- temp
+|   |   `-- .gitignore
 |   |-- err_fulltime
-|   |   `-- temp
-|   `-- temp
+|   |   `-- .gitignore
+|   `-- .gitignore
 |-- forecasts
 |   |-- combined
-|   |   |-- temp
+|   |   |-- .gitignore
 |   |-- filtered
-|   |   `-- temp
+|   |   `-- .gitignore
 |   |-- full
-|   |   |-- temp
-|   `-- temp
+|   |   `-- .gitignore
+|   |-- REQUESTS.py
+|   |-- retrieve_forecast_data_even.py
+|   |-- retrieve_forecast_data_odd.py
+|   |-- retrieve_forecast_data_oneday.py
+|   `-- retrieve_forecast_data.ipynb
 |-- saildrones
 |   |-- all
 |   |   |-- Arctic2019_sd1034_all.nc
@@ -54,5 +58,5 @@ which is a product of Yamane's 2021 [NOAA Hollings](https://www.noaa.gov/office-
 |   |-- saildrone_filter.py
 |   |-- saildrone_filter_figures.ipynb
 |   `-- saildrone_path.ipynb
-`-- temp
+`-- README.md
 ```
