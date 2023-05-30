@@ -43,16 +43,10 @@ which was presented at [AGU](https://www.agu.org/) Fall Meeting 2021 and is a pr
 |   |-- retrieve_forecast_data_oneday.py
 |   `-- retrieve_forecast_data.ipynb
 |-- saildrones
-|   |-- all
-|   |   |-- Arctic2019_sd1034_all.nc
-|   |   |-- Arctic2019_sd1035_all.nc
-|   |   |-- Arctic2019_sd1036_all.nc
-|   |   `-- Arctic2019_sd1037_all.nc
+|   |-- all (place '_all' saildrone files here!)
+|   |   `-- .gitignore
 |   |-- filtered
-|   |   |-- Arctic2019_sd1034_filtered.nc
-|   |   |-- Arctic2019_sd1035_filtered.nc
-|   |   |-- Arctic2019_sd1036_filtered.nc
-|   |   `-- Arctic2019_sd1037_filtered.nc
+|   |   `-- .gitignore
 |   |-- saildrone_eda.ipynb
 |   |-- saildrone_filter.ipynb
 |   |-- saildrone_filter.py
